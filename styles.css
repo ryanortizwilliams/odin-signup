@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 200px;
+}
+
+.left-panel {
+  width: 40%;
+
+  background-image: url(images/laptop.jpg);
+  background-size: cover;
+}
+
+.right-panel {
+  width: 60%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 30%;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.middle-container {
+  height: 40%;
+  margin-left: 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  flex: auto;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.top-text {
+  width: 60%;
+  margin-left: 10%;
+  margin-top: auto;
+  margin-bottom: 5%;
+}
+
+.col {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  width: 30%;
+  display: inline-block;
+}
+
+.row {
+  width: 100%;
+}
