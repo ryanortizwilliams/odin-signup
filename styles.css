@@ -3,25 +3,19 @@
   margin: 0;
 }
 
-body {
+/* body {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 input {
   width: 200px;
 }
 
 .left-panel {
-  width: 40%;
-
   background-image: url(images/laptop.jpg);
   background-size: cover;
-}
-
-.right-panel {
-  width: 60%;
 }
 
 .container {
@@ -55,14 +49,13 @@ input {
   margin-bottom: 5%;
 }
 
-.col {
+.css-col {
   display: flex;
   padding: 10px 20px;
   flex-direction: column;
   width: 30%;
   display: inline-block;
 }
-
-.row {
+.css-row {
   width: 100%;
 }
