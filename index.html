@@ -20,19 +20,24 @@
   <body>
     <div class="container-fluid vh-100 p-0">
       <div class="row m-0 h-100">
-        <div class="col-4 d-flex text-center text-white p-0 left-panel">
+        <!-- Left Panel -->
+        <div class="col-md-4 d-flex text-center text-white p-0 left-panel">
+          <!-- TODO: adjust margin of logo area -->
           <div
-            class="container-fluid d-flex justify-content-center bg-danger bg-opacity-50 py-3 my-auto"
+            class="container-fluid d-flex justify-content-center bg-danger bg-opacity-50 py-3 my-md-auto"
           >
-            <i class="fa-solid fa-5x fa-laptop-code w-auto"></i>
-            <h1 class="my-auto px-2 py-3 d-inline">Test</h1>
+            <span class="my-auto">
+              <i class="fa-solid fa-5x fa-laptop-code w-auto"></i>
+              <h1 class="my-auto px-2 py-3 d-inline">Logo</h1></span
+            >
           </div>
         </div>
-        <div class="col-8 bg-body-secondary right-panel">
+        <!-- Right Panel -->
+        <div class="col-md-8 d-flex flex-column bg-body-secondary right-panel">
           <!-- top section -->
-          <div class="row h-25">
+          <div class="row d-none d-md-block">
             <div
-              class="text-group align-content-center w-75 mx-4 mt-auto pb-3 fw-bolder"
+              class="text-group align-content-center w-75 mx-4 py-4 fw-bolder"
             >
               <h5 class="">
                 This is not a real online service! You know you need something
@@ -42,10 +47,9 @@
               <p>You know you want to.</p>
             </div>
           </div>
-          <div class="row h-50 bg-body shadow">
-            <!-- form goes here -->
-            <!-- Todo: Make 4 rows, 1 for title and 3 for form elements -->
-            <form action="#">
+          <div class="row bg-body shadow flex-fill">
+            <!-- Form -->
+            <form action="#" class="my-auto">
               <div class="row mx-2 my-2">
                 <div class="col-12">
                   <h5>Let's do this</h5>
@@ -118,7 +122,7 @@
             </form>
           </div>
           <div class="row">
-            <!-- button goes here -->
+            <!-- Bottom Section -->
             <div class="col ms-4 mt-5">
               <button class="btn btn-primary">Create Account</button>
               <p class="pt-2">
